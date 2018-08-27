@@ -1,6 +1,6 @@
 def oxford_comma(array)
   if array.length == 1 
-    puts array
+    array
   else
     array << "and #{array.last}"
     array.delete_at(-2)
